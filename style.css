@@ -8,7 +8,6 @@
 .container .users-info{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .container .users-info .user{
