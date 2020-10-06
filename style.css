@@ -21,7 +21,7 @@ header {
 header .img-header {
   height: 575px;
   width: 100%;
-  background-image: url("/img/troopers.jpg");
+  background-image: url("img/troopers.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -110,27 +110,58 @@ a.toggleNavbar:hover {
   }
 }
 
-#ShortReview {
+.ShortReview {
   background-color: rgb(7, 7, 7);
   /* background-image: url(https://wallpapercave.com/wp/wp2539068.jpg); */
   padding: 10px;
-  text-align: center;
   color: white;
   width: 100%;
+  height: 300px;
+  display: flex;
+  text-align: center;
+  flex-direction:column;
+  justify-content :space-around;
+}
+.ShortReview h1 .Galactic-Empire {
+text-decoration: line-through ;
+border-bottom:dotted red 4px ;
+}
+.ShortReview h1 .Agency{
+  font-size: 38px;
+  text-decoration: underline;
+
 }
 .FULL-REVIEW {
   background-color: rgb(23, 25, 25);
-  /* background-image: url(https://wallpapercave.com/wp/wp2539068.jpg); */
-  padding: 10px;
-  text-align: center;
+  padding: 120px 20px;
   color: white;
+  width: 100%;
+  display: flex;
+  text-align:center;
+  flex-direction:column ;
+
 }
+.FULL-REVIEW .About-Us{
+text-decoration: underline;
+font-style: italic;
+}
+
 footer {
   background-color: rgb(48, 46, 46);
-  padding: 10px;
+  padding: 30px 20px;
   text-align: center;
   color: white;
+
 }
+footer i {
+  margin: 20px 20px;
+  font-size: 25px;
+
+}
+footer i:hover {
+  color: #000;
+}
+
 
 .container .users-info {
   display: flex;
