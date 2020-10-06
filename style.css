@@ -19,7 +19,7 @@ header {
 }
 
 header .img-header {
-  height: 375px;
+  height: 575px;
   width: 100%;
   background-image: url("/img/troopers.jpg");
   background-repeat: no-repeat;
@@ -108,4 +108,68 @@ a.toggleNavbar:hover {
   .navbar li {
     flex: 1 1 100%;
   }
+}
+
+#ShortReview {
+  background-color: rgb(7, 7, 7);
+  /* background-image: url(https://wallpapercave.com/wp/wp2539068.jpg); */
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.FULL-REVIEW {
+  background-color: rgb(23, 25, 25);
+  /* background-image: url(https://wallpapercave.com/wp/wp2539068.jpg); */
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+footer {
+  background-color: rgb(48, 46, 46);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.container .users-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .users-info .user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container .users-info .user h3 {
+  text-align: center;
+  margin-top: 2px;
+}
+
+.users-info .user p {
+  width: 70%;
+}
+
+.users-info .user img {
+  border-radius: 50%;
+}
+
+.container .user {
+  padding: 30px 0;
+}
+
+.contact-form {
+  padding: 8px;
+}
+
+.contact-form h2 {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.contact-form input {
+  margin: 5px;
+  font-weight: bold;
 }
