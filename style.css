@@ -1,0 +1,40 @@
+
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.container .users-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container .users-info .user{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .users-info .user h3{
+    text-align: center;
+    margin-top: 2px;
+}
+
+.contact-form{
+    padding: 8px;
+}
+
+.contact-form h2{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.contact-form input{
+    margin:5px;
+    font-weight: bold;
+}
+
+
+

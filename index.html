@@ -1,32 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Stromtroopers Agency</title>
-  </head>
-  <body>
-    <nav>
-      <!-- NAME > ALAA -->
-    </nav>
-    <div class="container">
-      <div>
-        <!-- SHORT REVIEW > AHMAD -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Stromtroopers Agency</title>
+</head>
+
+<body>
+  <nav>
+    <!-- NAME > ALAA -->
+  </nav>
+  <div class="container">
+    <div>
+      <!-- SHORT REVIEW > AHMAD -->
+    </div>
+    <div class="users-info">
+      <!-- INFO ABOUT TEAM MEMBERS WITH PICTURES > AWAD -->
+
+      <!--we will use flexbox for the most parent div (with class "users-info"),
+      and each div inside with the class "user" will be flex too.-->
+      <div class="user">
+        <!--USER 1-->
+        <div>
+          <img src="./img/ch1.jpg" width="150" height="120">
+          <h3>Awwad</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ea earum qui quaerat incidunt! Neque sit
+          molestias eum, iure fuga molestiae delectus voluptatibus eveniet inventore?</p>
       </div>
-      <div>
-        <!-- INFO ABOUT TEAM MEMBERS WITH PICTURES > AWAD -->
+      <div class="user">
+        <!--USER 2-->
+        <div>
+          <img src="./img/ch2.jpg" width="150" height="120">
+          <h3>Ahmed</h3>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nesciunt doloribus velit ea ab. Minima
+          dolores fugiat voluptates id mollitia repudiandae. Aliquam harum fugit incidunt.</p>
       </div>
-      <div>
-        <!-- ABOUT US FULL REVIEW - AHMAD -->
-      </div>
-      <div>
-        <!-- CONTACT US FORM > AWAD -->
+      <div class="user">
+        <!--USER 3-->
+        <div>
+          <img src="./img/ch3.jpg" width="150" height="120">
+          <h3>Alaa</h3>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nesciunt doloribus velit ea ab. Minima
+          dolores fugiat voluptates id mollitia repudiandae. Aliquam harum fugit incidunt.</p>
       </div>
     </div>
-    <footer>
-      <!-- FOOTER - ICONS - LINKS > ANCRS - -->
-    </footer>
-    <script src="script.js"></script>
-  </body>
+    <div>
+      <!-- ABOUT US FULL REVIEW - AHMAD -->
+    </div>
+    <div class="contact-form">
+      <!-- CONTACT US FORM > AWAD -->
+      <h2>Are You Interested? fill in your details Below</h2>
+      <form>
+        <label>First Name:</label> <br>
+        <input  type="text" name="first-name" placeholder="Danny"><br>
+        <label>Last Name:</label> <br>
+        <input type="text" name="last-name" placeholder="Jhonson"> <br>
+        <label>Email:</label> <br>
+        <input type="email" name="email" placeholder="user5613@example.com"> <br>
+        <label>Phone Number:</label><br>
+        <input type="tel" name="tel" placeholder="Phone Number"> <br>
+        <input id="updateMe" type="checkbox" name="update-me"> <label for="updateMe">Send me Updates/News</label><br>
+        <input type="submit">
+      </form>
+    </div>
+  </div>
+  <footer>
+    <!-- FOOTER - ICONS - LINKS > ANCRS - -->
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
