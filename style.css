@@ -8,13 +8,15 @@
 .container .users-info{
     display: flex;
     flex-direction: column;
+
 }
 
 .container .users-info .user{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
+
 
 .container .users-info .user h3{
     text-align: center;
