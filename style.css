@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+}
+
+header .img-header {
+  height: 375px;
+  width: 100%;
+  background-image: url("/img/troopers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #000;
+  padding-top: 25px;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+}
+
+.navbar li {
+  flex: 3;
+}
+
+.navbar li a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background-color: #000;
+  padding: 20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar li a:hover {
+  color: #000;
+
+  background-color: #fff;
+}
+
+a.toggleNavbar {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+  text-decoration: none;
+  display: none;
+  align-self: flex-end;
+  padding-bottom: 25px;
+  padding-right: 25px;
+}
+
+a.toggleNavbar:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+@media all and (max-width: 820px) {
+  .navbar ul {
+    flex-wrap: wrap;
+    display: none;
+  }
+  .navbar li {
+    flex: 1 1 100%;
+  }
+
+  a.toggleNavbar {
+    display: block;
+  }
+}
+
+@media all and (max-width: 637px) {
+  .navbar ul {
+    flex-wrap: wrap;
+  }
+  .navbar li {
+    flex: 1 1 100%;
+  }
+}
