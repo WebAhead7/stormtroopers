@@ -1,78 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Stromtroopers Agency</title>
-</head>
-
-<body>
-  <nav>
-    <!-- NAME > ALAA -->
-  </nav>
-  <div class="container">
-    <div>
-      <!-- SHORT REVIEW > AHMAD -->
-    </div>
-    <div class="users-info">
-      <!-- INFO ABOUT TEAM MEMBERS WITH PICTURES > AWAD -->
-
-      <!--we will use flexbox for the most parent div (with class "users-info"),
-      and each div inside with the class "user" will be flex too.-->
-      <div class="user">
-        <!--USER 1-->
-        <div>
-          <img src="./img/ch1.jpg" width="150" height="120">
-          <h3>Awwad</h3>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ea earum qui quaerat incidunt! Neque sit
-          molestias eum, iure fuga molestiae delectus voluptatibus eveniet inventore?</p>
+    <link rel="stylesheet" href="style.css" />
+    <title>Stromtroopers Agency</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="top">
+        <nav class="navbar">
+          <!-- NAME > ALAA -->
+          <a href="#" class="toggleNavbar">☰</a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Team Members</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#contactus">Contact Us </a></li>
+          </ul>
+        </nav>
+        <div class="img-header"></div>
+      </header>
+      <div id="ShortReview">
+        <!-- SHORT REVIEW > AHMAD -->
+        <h1>
+          The Stormtrooper <del><b>Of The Galactic Empire</b></del>
+        </h1>
+        <h3>of <b>The Web Development Agency</b> at your service .</h3>
       </div>
-      <div class="user">
-        <!--USER 2-->
-        <div>
-          <img src="./img/ch2.jpg" width="150" height="120">
-          <h3>Ahmed</h3>
+      <!--MEMBERS INFO > AWWAD-->
+      <div class="users-info" id="membersinfo">
+        <div class="user">
+          <!--USER 1-->
+          <div>
+            <img src="./img/ch1.jpg" width="150" height="120" />
+            <h3>Awwad</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ea
+            earum qui quaerat incidunt! Neque sit molestias eum, iure fuga
+            molestiae delectus voluptatibus eveniet inventore?
+          </p>
         </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nesciunt doloribus velit ea ab. Minima
-          dolores fugiat voluptates id mollitia repudiandae. Aliquam harum fugit incidunt.</p>
-      </div>
-      <div class="user">
-        <!--USER 3-->
-        <div>
-          <img src="./img/ch3.jpg" width="150" height="120">
-          <h3>Alaa</h3>
+        <div class="user">
+          <!--USER 2-->
+          <div>
+            <img src="./img/ch2.jpg" width="150" height="120" />
+            <h3>Ahmed</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+            nesciunt doloribus velit ea ab. Minima dolores fugiat voluptates id
+            mollitia repudiandae. Aliquam harum fugit incidunt.
+          </p>
         </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nesciunt doloribus velit ea ab. Minima
-          dolores fugiat voluptates id mollitia repudiandae. Aliquam harum fugit incidunt.</p>
+        <div class="user">
+          <!--USER 3-->
+          <div>
+            <img src="./img/ch3.jpg" width="150" height="120" />
+            <h3>Alaa</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+            nesciunt doloribus velit ea ab. Minima dolores fugiat voluptates id
+            mollitia repudiandae. Aliquam harum fugit incidunt.
+          </p>
+        </div>
       </div>
-    </div>
-    <div>
-      <!-- ABOUT US FULL REVIEW - AHMAD -->
-    </div>
-    <div class="contact-form">
-      <!-- CONTACT US FORM > AWAD -->
-      <h2>Are You Interested? fill in your details Below</h2>
-      <form>
-        <label for="hey">First Name:</label> <br>
-        <input  type="text" name="first-name" placeholder="Danny"><br>
-        <label>Last Name:</label> <br>
-        <input type="text" name="last-name" placeholder="Jhonson"> <br>
-        <label>Email:</label> <br>
-        <input type="email" name="email" placeholder="user5613@example.com"> <br>
-        <label>Phone Number:</label><br>
-        <input type="tel" name="tel" placeholder="Phone Number"> <br>
-        <input id="updateMe" type="checkbox" name="update-me"> <label for="updateMe">Send me Updates/News</label><br>
-        <input type="submit">
-      </form>
-    </div>
-  </div>
-  <footer>
-    <!-- FOOTER - ICONS - LINKS > ANCRS - -->
-  </footer>
-  <script src="script.js"></script>
-</body>
 
+      <div class="FULL-REVIEW">
+        <!-- ABOUT US FULL REVIEW - AHMAD -->
+        <h3>
+          stormtroopers agency website for galaxy far far away from where ever
+          you are !
+        </h3>
+        <h4>
+          After The Fall Of The Galactic Empire We Decided To Start Our Own
+          Startup To Return Our Legacy And Rise Again
+        </h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          rem illo impedit doloremque quo, officia non iusto architecto omnis
+          vel officiis repellendus, nisi itaque harum ab vero. A, laborum?
+          Ratione?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nostrum?
+          Mollitia beatae dolores assumenda, repudiandae id saepe quidem
+          incidunt illum eveniet alias ratione ab veniam, esse facilis nostrum
+          nisi quo!
+        </p>
+      </div>
+
+      <div class="contact-form" id="contactus">
+        <!-- CONTACT US FORM > AWAD -->
+        <h2>Are You Interested? Leave Details Below</h2>
+        <form>
+
+          <div>
+            <label>First Name:</label> <br />
+            <input type="text" name="first-name" placeholder="Danny" />
+          </div>
+
+          <div>
+            <label>Last Name:</label> <br />
+            <input type="text" name="last-name" placeholder="Jhonson" /> 
+          </div>
+
+         <div>
+          <label>Email:</label> <br />
+          <input type="email" name="email" placeholder="user5613@example.com" />
+         </div>
+
+         <div>
+          <label>Phone Number:</label><br />
+          <input type="tel" name="tel" placeholder="Phone Number" /> 
+         </div>
+         
+          <div>
+            <input id="updateMe" type="checkbox" name="update-me" />
+          <label for="updateMe">Send me Updates/News</label>
+          </div>
+          <input type="submit" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <!-- FOOTER - ICONS - LINKS > ANCRS - -->
+      <p>Find us on Social Media</p>
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <p>Copyright © 2020 Stormtrooper</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
