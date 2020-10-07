@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 header {
@@ -149,6 +150,7 @@ a.toggleNavbar:hover {
     flex-direction: column;
     position: relative;
     animation: menuDown2 0.5s both;
+    align-self: center;
   }
 
   .navbar li {
@@ -166,12 +168,11 @@ a.toggleNavbar:hover {
 }
 
 .ShortReview {
-  background-color: rgb(7, 7, 7);
+  background-color: black;
   /* background-image: url(https://wallpapercave.com/wp/wp2539068.jpg); */
-  padding: 10px;
+  padding: 50px 10px;
   color: white;
   width: 100%;
-  height: 300px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -186,31 +187,92 @@ a.toggleNavbar:hover {
   text-decoration: underline;
 }
 .FULL-REVIEW {
-  background-color: rgb(23, 25, 25);
+  background-color: black;
   padding: 120px 20px;
   color: white;
   width: 100%;
   display: flex;
   text-align: center;
   flex-direction: column;
+  line-height: 2.2;
 }
 .FULL-REVIEW .About-Us {
   text-decoration: underline;
-  font-style: italic;
+  font-size: 50px;
 }
 
 footer {
-  background-color: rgb(48, 46, 46);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
   padding: 30px 20px;
-  text-align: center;
   color: white;
 }
+
+footer div {
+  text-align: center;
+}
+
 footer i {
   margin: 20px 20px;
   font-size: 25px;
 }
 footer i:hover {
-  color: #000;
+  color: rgb(90, 88, 88);
+}
+/* footer i.arrow {
+  text-align: right !important ;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+} */
+footer .arrow-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.arrow {
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 40px;
+  padding: 8px 15px;
+  z-index: 99;
+}
+
+footer .pra1-div {
+  width: 30%;
+  /* display: flex;
+  flex-direction:column ; */
+}
+footer .icons {
+  display: flex;
+}
+footer .pra2-div {
+  width: 35%;
+  text-align: center;
+}
+footer .pra1:hover {
+  color: #87242a;
+}
+
+footer .pra2:hover {
+  color: #87242a;
+}
+
+/* MEDIA QUARY FOR FOOTER */
+@media all and (max-width: 650px) {
+  footer .pra2-div {
+    width: 100%;
+  }
+  footer .pra2-div {
+    width: 100%;
+  }
 }
 
 .container .users-info {
@@ -219,6 +281,53 @@ footer i:hover {
   padding: 25px 20px;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+}
+
+.userInfoBg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("./img/troopersbg.png");
+  background-repeat: no-repeat;
+  background-position: 50% 230%;
+  opacity: 0.15;
+}
+
+.container .users-info h1 {
+  font-size: 60px;
+  text-shadow: 4px 3px 6px black;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.rotate-pic {
+  animation-name: someAnim;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes someAnim {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .container .users-info .user {
@@ -235,6 +344,13 @@ footer i:hover {
 
 .users-info .user p {
   width: 70%;
+  font-size: 25px;
+}
+
+.users-info .user p span {
+  background-color: rgba(250, 250, 250, 1);
+  line-height: 40px;
+  padding: 5px 4px;
 }
 
 .users-info .user img {
@@ -248,6 +364,10 @@ footer i:hover {
 @media all and (max-width: 638px) {
   .container .users-info .user {
     flex-direction: column;
+  }
+
+  .contact-form h2 {
+    font-size: 30px;
   }
 }
 
