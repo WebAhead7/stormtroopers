@@ -32,9 +32,13 @@
       <div class="ShortReview">
         <!-- SHORT REVIEW > AHMAD -->
         <h1>
-          The Stormtrooper <span class="Galactic-Empire">Of The Galactic Empire</span>
+          The Stormtrooper
+          <span class="Galactic-Empire">Of The Galactic Empire</span>
         </h1>
-        <h1>of <span class="Agency">The Web Development Agency</span> at your Service .</h1>
+        <h1>
+          of <span class="Agency">The Web Development Agency</span> at your
+          Service .
+        </h1>
       </div>
       <!--MEMBERS INFO > AWWAD-->
       <div class="users-info" id="membersinfo">
@@ -91,7 +95,16 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
           rem illo impedit doloremque quo, officia non iusto architecto omnis
           vel officiis repellendus, nisi itaque harum ab vero. A, laborum?
-          Ratione?
+          Ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+          nostrum? Mollitia beatae dolores assumenda, repudiandae id saepe
+          quidem incidunt illum eveniet alias ratione ab veniam, esse facilis
+          nostrum nisi quo!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          rem illo impedit doloremque quo, officia non iusto architecto omnis
+          vel officiis repellendus, nisi itaque harum ab vero. A, laborum?
+          Ratione?<br />
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nostrum?
           Mollitia beatae dolores assumenda, repudiandae id saepe quidem
           incidunt illum eveniet alias ratione ab veniam, esse facilis nostrum
@@ -101,55 +114,75 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
           rem illo impedit doloremque quo, officia non iusto architecto omnis
           vel officiis repellendus, nisi itaque harum ab vero. A, laborum?
-          Ratione?<br>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nostrum?
-          Mollitia beatae dolores assumenda, repudiandae id saepe quidem
-          incidunt illum eveniet alias ratione ab veniam, esse facilis nostrum
-          nisi quo!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          rem illo impedit doloremque quo, officia non iusto architecto omnis
-          vel officiis repellendus, nisi itaque harum ab vero. A, laborum?
-          Ratione?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nostrum?
-          Mollitia <br>beatae dolores assumenda, repudiandae id saepe quidem
-          incidunt illum eveniet alias ratione ab veniam, esse facilis nostrum
-          nisi quo!
+          Ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+          nostrum? Mollitia <br />beatae dolores assumenda, repudiandae id saepe
+          quidem incidunt illum eveniet alias ratione ab veniam, esse facilis
+          nostrum nisi quo!
         </p>
       </div>
+      <div class="contact-section">
+        <div class="contact-section-inner1"></div>
+        <div class="contact-form" id="contactus">
+          <!-- CONTACT US FORM > AWAD -->
+          <h2>Are You Interested? Leave Details Below</h2>
+          <form
+            action="https://learn-forms.netlify.com/submit/part3"
+            method="GET"
+          >
+            <div class="labels">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div class="labels">
+              <label for="eml">Email</label>
+              <input type="email" id="eml" name="email" />
+            </div>
+            <div class="labels">
+              <label for="fon">Telephone</label>
+              <input type="tel" id="fon" name="tel" />
+            </div>
+            <div class="inner-form">
+              <label class="radio-label" for="feildset-radio"
+                >Preferred contact method</label
+              >
+              <fieldset class="feildset-radio" id="feildset-radio">
+                <input
+                  id="contact-email"
+                  type="radio"
+                  name="contact"
+                  value="email"
+                  checked=""
+                />
+                <label for="contact-email" class="radio">Email</label>
 
-      <div class="contact-form" id="contactus">
-        <!-- CONTACT US FORM > AWAD -->
-        <h2>Are You Interested? Leave Details Below</h2>
-        <form>
+                <input
+                  id="contact-tel"
+                  type="radio"
+                  name="contact"
+                  value="telephone"
+                  checked=""
+                />
+                <label for="contact-tel" class="radio">Telephone</label>
 
-          <div>
-            <label>First Name:</label> <br />
-            <input type="text" name="first-name" placeholder="Danny" />
-          </div>
-
-          <div>
-            <label>Last Name:</label> <br />
-            <input type="text" name="last-name" placeholder="Jhonson" /> 
-          </div>
-
-         <div>
-          <label>Email:</label> <br />
-          <input type="email" name="email" placeholder="user5613@example.com" />
-         </div>
-
-         <div>
-          <label>Phone Number:</label><br />
-          <input type="tel" name="tel" placeholder="Phone Number" /> 
-         </div>
-         
-          <div>
-            <input id="updateMe" type="checkbox" name="update-me" />
-          <label for="updateMe">Send me Updates/News</label>
-          </div>
-          <input type="submit" />
-        </form>
+                <input
+                  id="contact-post"
+                  type="radio"
+                  name="contact"
+                  value="post"
+                />
+                <label for="contact-post" class="radio">Post</label>
+              </fieldset>
+            </div>
+            <label for="msg">Message</label>
+            <textarea id="msg" name="message"></textarea>
+            <div class="the-checkbox">
+              <input id="myinbox" name="marketingConsent" type="checkbox" />
+              <label for="myinbox" class="checkbox">Just wreck my inbox</label>
+            </div>
+            <button type="submit" class="submit">Submit</button>
+          </form>
+        </div>
+        <div class="contact-section-inner2"></div>
       </div>
     </div>
 
