@@ -192,6 +192,44 @@ footer i:hover {
   padding:25px 20px;
   justify-content: center;
   align-items: center;
+  width:100%;
+  position: relative;
+  z-index: 3;
+}
+
+.userInfoBg{
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background:url("./img/troopersbg.png");
+  background-repeat: no-repeat;
+  background-position: 50% 230%;
+  opacity: 0.15;
+}
+
+.container .users-info h1{
+  font-size: 60px;
+  text-shadow: 4px 3px 6px black;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+.rotate-pic{
+  animation-name:someAnim;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes someAnim{
+  0%{transform:rotate(0deg);}
+  25%{transform:rotate(90deg);}
+  50%{transform:rotate(180deg);}
+  75%{transform:rotate(270deg);}
+  100%{transform:rotate(360deg);}
 }
 
 .container .users-info .user {
@@ -208,6 +246,14 @@ footer i:hover {
 
 .users-info .user p {
   width: 70%;
+  font-size:25px;
+}
+
+.users-info .user p span{
+  background-color: rgba(250,250,250,1);
+  line-height: 40px;
+  padding:5px 4px;
+  
 }
 
 .users-info .user img {
@@ -248,6 +294,7 @@ footer i:hover {
     transition-duration: 0.8s;
 }
 
+
 .contact-form form input[type=submit]:hover{
     background-color: green;
     color:white;
@@ -267,9 +314,29 @@ footer i:hover {
     cursor: pointer;
 }
 
+
+
 @media all and (max-width:638px){
     
      .container .users-info .user{
         flex-direction: column;
     }
+    .contact-form h2{
+      font-size: 30px;
+    }
+}
+
+@media all and (max-width:357px){
+  .contact-form{
+    padding-bottom:30px;
+  }
+  .contact-form form{
+    justify-content: space-between;
+  }
+  .contact-form form input[type="submit"]{
+    font-size: 15px;
+  }
+  .contact-form h2{
+    font-size: 20px;
+  }
 }
