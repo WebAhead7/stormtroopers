@@ -9,7 +9,6 @@
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="style.css" />
     <title>Stromtroopers Agency</title>
   </head>
@@ -146,21 +145,21 @@
           >
             <div class="labels">
               <label for="name">Name</label>
-              <input type="text" id="name" name="name" />
+              <input type="text" id="name" name="name" required />
             </div>
             <div class="labels">
               <label for="eml">Email</label>
-              <input type="email" id="eml" name="email" />
+              <input type="email" id="eml" name="email" required />
             </div>
             <div class="labels">
               <label for="fon">Telephone</label>
-              <input type="tel" id="fon" name="tel" />
+              <input type="tel" id="fon" name="tel" required />
             </div>
             <div class="inner-form">
               <label class="radio-label" for="feildset-radio"
                 >Preferred contact method</label
               >
-              <fieldset class="feildset-radio" id="feildset-radio">
+              <fieldset class="feildset-radio" id="feildset-radio" required>
                 <input
                   id="contact-email"
                   type="radio"
@@ -189,10 +188,12 @@
               </fieldset>
             </div>
             <label for="msg">Message</label>
-            <textarea id="msg" name="message"></textarea>
+            <textarea id="msg" name="message" required></textarea>
             <div class="the-checkbox">
               <input id="myinbox" name="marketingConsent" type="checkbox" />
-              <label for="myinbox" class="checkbox">Just wreck my inbox</label>
+              <label for="myinbox" class="checkbox" required
+                >Just wreck my inbox</label
+              >
             </div>
             <button type="submit" class="submit">Submit</button>
           </form>
