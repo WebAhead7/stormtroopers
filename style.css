@@ -165,7 +165,6 @@ a.toggleNavbar:hover {
   .navbar li a {
     transition: all 0.7s ease-in-out;
   }
-  
 }
 
 .ShortReview {
@@ -185,7 +184,6 @@ a.toggleNavbar:hover {
 .ShortReview h1 .Agency {
   font-size: 38px;
   text-decoration: underline;
-  
 }
 .FULL-REVIEW {
   background-color: black;
@@ -338,7 +336,7 @@ footer .pra2:hover {
 .container .users-info .user h3 {
   text-align: center;
   margin-top: 2px;
-  font-size:35px;
+  font-size: 35px;
 }
 
 .inner-paragraph {
@@ -371,10 +369,9 @@ footer .pra2:hover {
 
   .users-info .user p {
     text-align: center;
-
   }
 
-  .users-info{
+  .users-info {
     text-align: center;
   }
 
