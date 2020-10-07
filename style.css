@@ -169,7 +169,6 @@ a.toggleNavbar:hover {
 
 .ShortReview {
   background-color: black;
-  /* background-image: url(https://wallpapercave.com/wp/wp2539068.jpg); */
   padding: 50px 10px;
   color: white;
   width: 100%;
@@ -178,13 +177,14 @@ a.toggleNavbar:hover {
   flex-direction: column;
   justify-content: space-around;
 }
-.ShortReview h1 .Galactic-Empire {
+.ShortReview h2 .Galactic-Empire {
   text-decoration: line-through;
   border-bottom: dotted red 4px;
 }
 .ShortReview h1 .Agency {
   font-size: 38px;
   text-decoration: underline;
+  
 }
 .FULL-REVIEW {
   background-color: black;
@@ -197,8 +197,7 @@ a.toggleNavbar:hover {
   line-height: 2.2;
 }
 .FULL-REVIEW .About-Us {
-  text-decoration: underline;
-  font-size: 50px;
+  font-size: 65px;
 }
 
 footer {
