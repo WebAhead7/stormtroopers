@@ -51,7 +51,6 @@ header .img-header {
   width: 70%;
   height: 50%;
   flex-direction: row;
-  /* animation: menuDown2 0.5s forwards; */
 }
 
 .navbar li {
@@ -105,7 +104,6 @@ a.toggleNavbar:hover {
   height: 100%;
   flex-direction: column;
   animation: menuDown 0.5s forwards;
-  /* animation: menuDown2 0.5s forwards; */
 
   bottom: 210px;
   position: relative;
@@ -209,6 +207,16 @@ footer {
   color: white;
 }
 
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
 footer div {
   text-align: center;
 }
@@ -220,11 +228,7 @@ footer i {
 footer i:hover {
   color: rgb(90, 88, 88);
 }
-/* footer i.arrow {
-  text-align: right !important ;
-  font-size: 40px;
-  color: rgb(255, 255, 255);
-} */
+
 footer .arrow-div {
   width: 100%;
   display: flex;
@@ -245,8 +249,6 @@ footer .arrow-div {
 
 footer .pra1-div {
   width: 30%;
-  /* display: flex;
-  flex-direction:column ; */
 }
 footer .icons {
   display: flex;
@@ -304,7 +306,7 @@ footer .pra2:hover {
 .rotate-pic {
   animation-name: someAnim;
   animation-duration: 0.4s;
-  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
@@ -398,7 +400,6 @@ footer .pra2:hover {
 .contact-section {
   width: 100%;
   display: flex;
-  /* flex: 1 0 auto; */
 }
 
 .contact-section-inner1,
