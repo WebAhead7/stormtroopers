@@ -2,7 +2,6 @@ const menu = document.querySelector("#menu");
 const toggle = document.querySelector("#toggleNavbar");
 // const name = document.querySelector("#name").value;
 const submit = document.querySelector(".submit");
-let scrolled = window.scrollY;
 
 const name = document.querySelector("#name");
 const email = document.querySelector("#contact-email");
@@ -17,6 +16,7 @@ let usersPics = document.querySelectorAll(".users-pic");
 /*AWWAD:  Some Animation for members seection*/
 let membersSec = document.querySelector(".users-info");
 window.addEventListener("scroll", function () {
+  let scrolled = window.scrollY;
   const scrollBefore = 1155;
   usersPics.forEach((img) => {
     scrollBefore <= scrolled
