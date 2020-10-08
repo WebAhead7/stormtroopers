@@ -1,24 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
+<!DOCTYPE html> 
+
+
+
+      
+    <html lang="en"><head><link rel="stylesheet" href="style.css" />
     <title>Stromtroopers Agency</title>
-  </head>
-  <body>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"/>
+    </head><body>
+  
     <div class="container" id="container">
       <a href="#container"> <i class="fas fa-angle-double-up arrow"></i></a>
       <header class="top">
         <nav class="navbar">
           <a href="#" class="toggleNavbar" id="toggleNavbar">☰</a>
-
+          
           <ul id="menu">
             <li><a href="#container">Home</a></li>
             <li><a href="#membersinfo">Troopers</a></li>
@@ -217,6 +212,7 @@
       </div>
     </footer>
     <script src="script.js"></script>
+      </body>
+      </html>
 
-  </body>
-</html>
+
