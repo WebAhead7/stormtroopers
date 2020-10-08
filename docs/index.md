@@ -1,19 +1,32 @@
-<!DOCTYPE html> 
-<html lang="en"><head><link rel="stylesheet" href="style.css" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      href="img/favicon.jpg"
+      sizes="16x16 32x32"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Stromtroopers Agency</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"/>
-    </head><body>
-  
-  <div class="container" id="container">
-    
-  <a href="#container"> <i class="fas fa-angle-double-up arrow"></i></a>
-      
-   <header class="top">
-       <nav class="navbar">
+  </head>
+  <body>
+    <div class="container" id="container">
+      <a href="#container"> <i class="fas fa-angle-double-up arrow"></i></a>
+      <header class="top">
+        <nav class="navbar">
           <a href="#" class="toggleNavbar" id="toggleNavbar">☰</a>
-          
-   <ul id="menu">
-          <li><a href="#container">Home</a></li>
+
+          <ul id="menu">
+            <li><a href="#container">Home</a></li>
             <li><a href="#membersinfo">Troopers</a></li>
             <li><a href="#About-Us">About</a></li>
             <li><a href="#contactus">Contact</a></li>
@@ -32,8 +45,8 @@
         </h1>
       </div>
 
-<div class="users-info" id="membersinfo">
-       <div class="userInfoBg"></div>
+      <div class="users-info" id="membersinfo">
+        <div class="userInfoBg"></div>
         <h1>Team Members</h1>
         <div class="user">
           <div>
@@ -97,7 +110,7 @@
         </div>
       </div>
 
-   <div class="FULL-REVIEW" id="About-Us">
+      <div class="FULL-REVIEW" id="About-Us">
         <h1><span class="About-Us">About Us </span></h1>
         <h3>
           Welcome to Stormtroopers Web development agency, After The Fall Of The
@@ -115,7 +128,7 @@
           into a service that we can provide in the best way.
         </h3>
 
-   <h3>
+        <h3>
           we hope you enjoy our products as much as we enjoy offering them to
           you. If you have any questions or comments, please don't hesitate to
           contact us.
@@ -156,7 +169,8 @@
                   checked=""
                 />
                 <label for="contact-email" class="radio">Email</label>
-               <input
+
+                <input
                   id="contact-tel"
                   type="radio"
                   name="contact"
@@ -164,6 +178,7 @@
                   checked=""
                 />
                 <label for="contact-tel" class="radio">Telephone</label>
+
                 <input
                   id="contact-post"
                   type="radio"
@@ -208,7 +223,5 @@
       </div>
     </footer>
     <script src="script.js"></script>
-      </body>
-      </html>
-
-
+  </body>
+</html>
